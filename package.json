@@ -1,10 +1,20 @@
 {
   "name": "wil-react-sticky",
   "version": "1.0.5",
-  "description": "Sticky Component For Header, Sidebar ...",
+  "description": "Sticky Component For Header, Sidebar etc.",
   "author": "wiloke1",
+  "contributors": [
+    {
+      "name" : "Michael Naumov",
+      "email" : "vommuan@gmail.com",
+      "url" : "http://mnaumov.com"
+    }
+  ],
   "license": "MIT",
-  "repository": "wiloke1/wil-react-sticky",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nsu-soft/wil-react-sticky.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -44,14 +54,14 @@
   "dependencies": {},
   "peerDependencies": {
     "prop-types": "^15.5.4",
-    "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react": "^15.0.0 || ^16.0.0 || ^17.0",
+    "react-dom": "^15.0.0 || ^16.0.0 || ^17.0"
   },
   "devDependencies": {
     "@svgr/rollup": "^2.4.1",
     "@types/jest": "^23.1.5",
-    "@types/react": "^16.3.13",
-    "@types/react-dom": "^16.0.5",
+    "@types/react": "^16.3.13 || ^17.0",
+    "@types/react-dom": "^16.0.5 || ^17.0",
     "@typescript-eslint/eslint-plugin": "^2.12.0",
     "@typescript-eslint/parser": "^2.12.0",
     "@typescript-eslint/typescript-estree": "^2.12.0",
@@ -71,8 +81,8 @@
     "husky": "^3.1.0",
     "lint-staged": "8.1.7",
     "prettier": "^1.19.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.4.1 || ^17.0",
+    "react-dom": "^16.4.1 || ^17.0",
     "react-scripts-ts": "^2.16.0",
     "rollup": "^0.62.0",
     "rollup-plugin-babel": "^3.0.7",
